@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body class="corpo">
+    <form action="login.php" method="post">
+      Digite usuário: <br>
+      <input class="dados-usuario" type="text" name="usuario" size="8" maxlength="8" />
+      <br /><br />
+      Digite senha: <br>
+      <input class="dados-usuario" type="password" name="senha" size="8" maxlength="8" />
+      <br /><br />
+      <div class="botoes">
+        <p>
+          <input
+            class="continuar"
+            type="submit"
+            name="entrar"
+            value="Continuar"
+          />
+        </p>
+        <div>
+          <input id="limpar" class="limpar-cadastrar" type="reset" value="Limpar" />
+          <a href="cadastro.html">
+            <input class="limpar-cadastrar" type="button" value="Criar conta"
+          /></a>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
